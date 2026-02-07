@@ -40,7 +40,7 @@ Responsibilities:
 
 Install:
 
-- Node 18+ (Node 20 recommended)
+- Node 22
 - pnpm
 - Temporal server
 
@@ -220,6 +220,9 @@ Workflow continues using new steps.
 
 Run only API:
 ```bash
+# Run everything with concurrent
+pnpm dev
+
 pnpm --filter api start:dev
 
 # Run only worker:
