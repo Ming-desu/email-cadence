@@ -49,11 +49,10 @@ Install:
 # 🚀 Setup
 
 ## 1. Clone
-
-git clone <your-repo-url>
+```bash
+git clone https://github.com/Ming-desu/email-cadence
 cd email-cadence
-
-
+```
 ---
 
 ## 2. Install dependencies
